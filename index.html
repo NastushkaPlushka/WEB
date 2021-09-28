@@ -1,0 +1,62 @@
+<html>
+<head>
+<link href="css/style.css" rel="stylesheet" type="text/css"/>
+<title>Регистрация</title>
+</head>
+<body>
+<div class="form-wrap">
+  <div>
+  <input type ="image" src="img/8691771.png">
+  </div>
+  <div class="profile">
+    <h1>Регистрация</h1>
+  </div>
+  <div class="description">
+    <h2>Заполните данные анкеты для отправки заявки на участие в стажировке</h2>
+  </div>
+  <form method="get">
+    <div>
+      <label for="name">Имя</label>
+      <input type="text" name="name" required>
+    </div>
+    <div>
+      <label for="email">E-mail</label>
+      <input type="email" name="email" required>
+    </div>
+    <div>
+      <label for="country">Страна</label>
+      <select name="country">
+        <option>Выберите страну проживания</option>
+        <option value="Россия">Россия</option> 
+        <option value="Украина">Украина</option> 
+        <option value="Беларусь">Беларусь</option> 
+      </select> 
+      <div class="select-arrow"></div> 
+    </div> 
+    <div class="radio">
+      <span>Пол</span>
+        <input type="radio" name="sex" value="мужской">мужской
+        <label for="sex"></label>
+        <input type="radio" name="sex" value="женский">женский
+        <label for="sex"></label>
+    </div>
+    <div class="checkbox">
+      <span>Желаемая должность</span>
+        <input type="checkbox" name="vacancy" value="Бизнес-аналитик">Бизнес-аналитик
+        <label for="vacancy"></label>
+        <input type="checkbox" name="vacancy" value="Разработчик 1С">Разработчик 1С
+        <label for="vacancy"></label>
+        <input type="checkbox" name="vacancy" value="Разработчик ML">Разработчик ML
+        <label for="vacancy"></label>
+        <input type="checkbox" name="vacancy" value="HR">HR
+        <label for="vacancy"></label>
+    </div>
+    <div>
+      <label for="about">Расскажите о себе</label>
+      <input maxlength="140" type="text" name="about" required>
+    </div>
+    <button type="submit">Отправить</button> 
+  </form> 
+</div>
+</body>
+</html>
