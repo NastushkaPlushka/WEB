@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Регистрация</title>
+    <!--Подключаем бустрап-->
+
+    <!--стили бустрап-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!--чек вери\бери?-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!--Подключаем js стили от бустрап-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <link href="../css/style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<header>
+<!--Добавляем верхнюю навигационную панель-->
+<nav class="navbar navbar-expand-lg fixed-top " style="margin: 0px auto;">
+    <!--Правая ссылка навигационной панели-->
+    <a class="navbar-brand" href="lab3_4.html">Задача 0</a>
+    <!--Левые ссылки навигационной панели-->
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav mr-4">
+            <li class="nav-item">
+                <a class="nav-link" href="task1.html">Задача 1</a>
+            </li>
+            <li class="nav-item">
+        </ul>
+
+    </div>
+</nav>
+</header>
+<!--Список задач-->
+<div class="container-fluid container-max-width px-4" style="margin-top: 150px;">
+    <!--Название страницы-->
+    <h1 class="mb-3">Список задач</h1>
+
+    <div>
+        <!--Красивая красная надпись для выделения-->
+        <div class="bg-danger bg-opacity-25 task-group-label">
+            <div class="d-inline-block py-1 px-2 bg-danger bg-opacity-75 text-white">Максимальная приоритетность</div>
+        </div>
+
+        <!--Дела первой важности-->
+        <div>
+            <div class="p-2 d-flex align-items-center justify-content-between custom-border border-left-danger">
+
+                <div class="d-flex flex-column justify-content-between pe-4">
+                    <div class="task-header">Сделать 3 работы по ВЕБу.</div>
+                    <div class="task-text">Необходимо сделать 3 практических работы по ВЕБу в ближайшее время. Поторопись, скоро аттестация.
+                    </div>
+                </div>
+                <div class="d-flex flex-column justify-content-between align-self-stretch text-end task-meta__container">
+                    <div class="task-header">Oct 26, 2021</div>
+                    <div class="task-text">1 day</div>
+                </div>
+            </div>
+
+            <div class="p-2 d-flex align-items-center justify-content-between custom-border border-left-danger">
+                <div class="d-flex flex-column justify-content-between pe-4">
+                    <div class="task-header">Придумать подарок.</div>
+                    <div class="task-text">Скоро новый год. Необходимо срочно придумать подарок для моего любимого ненаглядного парня.
+                    </div>
+                </div>
+                <div class="d-flex flex-column justify-content-between align-self-stretch text-end task-meta__container">
+                    <div class="task-header">Oct 26, 2021</div>
+                    <div class="task-text">50 days</div>
+                </div>
+            </div>
+
+            <div class="p-2 d-flex align-items-center justify-content-between custom-border border-left-danger">
+                <div class="d-flex flex-column justify-content-between pe-4">
+                    <div class="task-header">Устроиться на работу.</div>
+                    <div class="task-text">Казна пустеет. Нужно как можно скорее устраиваться на работу. Возможно, на ВЕБ разработчика)
+                    </div>
+                </div>
+                <div class="d-flex flex-column justify-content-between align-self-stretch text-end task-meta__container">
+                    <div class="task-header">Oct 26, 2021</div>
+                    <div class="task-text">3 month</div>
+                </div>
+            </div>
+        </div>
+
+        <!--Красивая оранжевая надпись для выделения-->
+        <div class="bg-warning bg-opacity-25 task-group-label">
+            <div class="d-inline-block py-1 px-2 bg-warning bg-opacity-75 text-white">Средняя приоритетность</div>
+        </div>
+        <!--Список дел второй очередности-->
+        <div>
+            <div class="p-2 d-flex align-items-center justify-content-between custom-border border-left-warning">
+                <div class="d-flex flex-column justify-content-between pe-4">
+                    <div class="task-header">Сходить на выставку ежей.</div>
+                    <div class="task-text">Жизнь слишком коротка, чтобы отказывать себе в таких удовольствиях. Новые впечатления - это то, к чему мы все стремимся
+                    </div>
+                </div>
+                <div class="d-flex flex-column justify-content-between align-self-stretch text-end task-meta__container">
+                    <div class="task-header">Oct 26, 2021</div>
+                    <div class="task-text">365 days</div>
+                </div>
+            </div>
+            <div class="p-2 d-flex align-items-center justify-content-between custom-border border-left-warning">
+                <div class="d-flex flex-column justify-content-between pe-4">
+                    <div class="task-header">Покататься с парнем на самокатах.</div>
+                    <div class="task-text">Это же лучшее, что может быть. Не понимаю, как я жила 21 год без этого. Скорее бы нашлось время
+                    </div>
+                </div>
+                <div class="d-flex flex-column justify-content-between align-self-stretch text-end task-meta__container">
+                    <div class="task-header">JOct 26, 2021</div>
+                    <div class="task-text">365 days</div>
+                </div>
+            </div>
+        </div>
+
+        <!--Красивая зеленая надпись для выделения-->
+        <div class="bg-success bg-opacity-25 task-group-label">
+            <div class="d-inline-block py-1 px-2 bg-success bg-opacity-75 text-white">Низкая приоритетность</div>
+        </div>
+        <!--Список третьестепенных дел-->
+        <div>
+            <div class="p-2 d-flex align-items-center justify-content-between custom-border border-left-success">
+                <div class="d-flex flex-column justify-content-between pe-4">
+                    <div class="task-header">Научиться есть палочками.</div>
+                    <div class="task-text">Это просто необходимо! Все нормальные люди вокруг могут есть роллы палочками, а я нет!
+                    </div>
+                </div>
+                <div class="d-flex flex-column justify-content-between align-self-stretch text-end task-meta__container">
+                    <div class="task-header">JOct 26, 2021</div>
+                    <div class="task-text">365 days</div>
+                </div>
+            </div>
+            <div class="p-2 d-flex align-items-center justify-content-between last-custom-border border-left-success">
+                <div class="d-flex flex-column justify-content-between pe-4">
+                    <div class="task-header">Купить корги.</div>
+                    <div class="task-text">Хочу. Хочу! ХОЧУУУ!!
+                    </div>
+                </div>
+                <div class="d-flex flex-column justify-content-between align-self-stretch text-end task-meta__container">
+                    <div class="task-header">JOct 26, 2021</div>
+                    <div class="task-text">5 years</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
